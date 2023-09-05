@@ -1,1 +1,0 @@
-Take a weekly demo of project with problems, solutions, fixes, bugs, progress, etc.
