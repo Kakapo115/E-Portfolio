@@ -14,7 +14,7 @@ app.use(cors());
 //Add body-parser middleware to handle JSON data
 app.use(bodyparser.json());
 // bring in the database connect key
-var db = require("./config/keys").mongoURI;
+var db = process.env.MONGO_CONNECTION;
 
 // Connect to mongo using mongoose.
 // Here's where we start using promises
