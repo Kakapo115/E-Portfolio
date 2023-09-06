@@ -9,7 +9,7 @@ var app = express();
 
 const cors = require("cors");
 // Enable CORS for all routes
-app.use(cors({origin: "https://64f7c39c407ba0153361adcf--vocal-duckanoo-3ddff1.netlify.app/"}));
+app.use(cors({origin: "https://64f7c39c407ba0153361adcf--vocal-duckanoo-3ddff1.netlify.app"}));
 
 //Add body-parser middleware to handle JSON data
 app.use(bodyparser.json());
