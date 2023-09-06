@@ -3,7 +3,7 @@ var mongoose = require("mongoose");
 var bodyparser = require("body-parser");
 
 // Add reference to the routes file
-var webapproute = require('./routes/api/webapproute');
+var webapproute = require("./routes/api/webapproute");
 
 var app = express();
 
@@ -17,7 +17,11 @@ app.use(bodyparser.json());
 // Connect to mongo using mongoose.
 // Here's where we start using promises
 mongoose
-  .connect(process.env.MONGO_CONNECTION)
+  .connect(process.env.MONGO_CONNECTION, {
+    useNewUrlParser: true,
+    useCreateIndex: true,
+    useUnifiedTopology: true,
+  })
   .then(function (err) {
     console.log("MongoDB connected...");
   })
@@ -30,8 +34,7 @@ mongoose
 //preconfigured service port
 var port = process.env.PORT || 5000;
 
-app.use('/api/webapp', webapproute );
-
+app.use("/api/webapp", webapproute);
 
 app.get("/", function (req, res) {
   res.json({ reply: "Route for HOME path." });
