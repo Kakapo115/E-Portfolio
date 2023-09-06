@@ -10,7 +10,11 @@ var app = express();
 const cors = require("cors");
 // Enable CORS for all routes
 app.use(
-  cors()
+  cors({
+    credentials: true,
+    origin:
+      "https://mern-e-portfolio.onrender.com",
+  })
 );
 
 //Add body-parser middleware to handle JSON data
