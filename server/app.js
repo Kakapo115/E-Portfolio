@@ -34,8 +34,7 @@ mongoose
     console.log(err);
   });
 
-//var port = 3000;
-//Comment out port 3000 and set port 5000 or the production server's
+//set port 5000 or the production server's
 //preconfigured service port
 var port = process.env.PORT || 5000;
 
