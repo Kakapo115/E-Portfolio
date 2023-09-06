@@ -13,7 +13,7 @@ app.use(
   cors({
     credentials: true,
     origin:
-      "https://main--ricky-syme-e-portfolio.netlify.app/",
+      "https://main--ricky-syme-e-portfolio.netlify.app",
   })
 );
 
