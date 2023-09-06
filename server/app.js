@@ -17,7 +17,7 @@ app.use(bodyparser.json());
 // Connect to mongo using mongoose.
 // Here's where we start using promises
 mongoose
-  .connect(process.env.MONGO_CONNECTION)
+  .connect(process.env.MONGO_CONNECTION, {useNewUrlParser: true, useUnifiedTopology: true})
   .then(function (err) {
     console.log("MongoDB connected...");
   })
