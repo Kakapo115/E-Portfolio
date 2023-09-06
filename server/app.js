@@ -13,7 +13,7 @@ app.use(
   cors({
     credentials: true,
     origin:
-      "https://https://64f7f165b206722d93a1d12f--vocal-duckanoo-3ddff1.netlify.app",
+      "https://64f7f165b206722d93a1d12f--vocal-duckanoo-3ddff1.netlify.app",
   })
 );
 
