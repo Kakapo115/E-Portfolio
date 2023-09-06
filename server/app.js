@@ -13,13 +13,11 @@ app.use(cors());
 
 //Add body-parser middleware to handle JSON data
 app.use(bodyparser.json());
-// bring in the database connect key
-var db = process.env.MONGO_CONNECTION;
 
 // Connect to mongo using mongoose.
 // Here's where we start using promises
 mongoose
-  .connect(db, { useNewUrlParser: true, useUnifiedTopology: true })
+  .connect(process.env.MONGO_CONNECTION)
   .then(function (err) {
     console.log("MongoDB connected...");
   })
