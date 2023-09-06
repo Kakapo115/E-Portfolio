@@ -13,7 +13,7 @@ app.use(
   cors({
     credentials: true,
     origin:
-      "https://64f7c39c407ba0153361adcf--vocal-duckanoo-3ddff1.netlify.app",
+      "https://mern-e-portfolio.onrender.com",
   })
 );
 
