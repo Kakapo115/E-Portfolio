@@ -9,7 +9,7 @@ var app = express();
 
 const cors = require("cors");
 // Enable CORS for all routes
-app.use(cors());
+app.use(cors({origin: "https://64f7c39c407ba0153361adcf--vocal-duckanoo-3ddff1.netlify.app/"}));
 
 //Add body-parser middleware to handle JSON data
 app.use(bodyparser.json());
@@ -35,6 +35,7 @@ app.use("/api/webapp", webapproute);
 app.get("/", function (req, res) {
   res.json({ reply: "Route for HOME path." });
 });
+
 app.listen(port, function () {
   console.log("Server started on port:" + port);
 });
