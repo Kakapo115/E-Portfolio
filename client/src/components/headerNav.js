@@ -10,9 +10,11 @@ class HeaderNav extends Component {
           <a href="#about">
             <h2>About</h2>
           </a>
+          <h2> | </h2>
           <a href="#work">
             <h2>My Work</h2>
           </a>
+          <h2> | </h2>
           <a href="#contact">
             <h2>Contact</h2>
           </a>
