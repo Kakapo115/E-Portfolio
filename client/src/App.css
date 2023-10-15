@@ -152,6 +152,7 @@
   border-radius: 5px;
   max-width: 50%;
   width: 100%; /* Expand the box to full width */
+  flex: auto;
 }
 .aboutMe p {
   font-size: 14px;
