@@ -12,7 +12,7 @@ const AboutMe = () => {
 
   return (
     <div className="section section1" id="about">
-      <div className="rightbox aboutMe">
+      <div className="aboutMe">
         <div
           className={`bubble ${isHovered ? "hovered" : ""}`}
           onMouseEnter={handleHover}
