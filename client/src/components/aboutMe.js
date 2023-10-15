@@ -1,7 +1,7 @@
 // displays information about me
 import React, { Component, useState } from "react";
 import SocialIcons from "./socialIcons.js"; // Import the Social Icons component
-import "./Bubble.css";
+import "./bubble.css";
 class AboutMe extends Component {
   render() {
     const [isHovered, setIsHovered] = useState(false);
