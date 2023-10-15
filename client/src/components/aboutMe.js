@@ -50,7 +50,7 @@ const AboutMe = () => {
         >
           <div className="bubble-content">
             <h3>Career</h3>
-            {isHovered && (
+            {isHovered2 && (
               <p>
                 My professional journey reflects a fusion of academic dedication
                 and practical experience. As I transition into the tech
@@ -71,7 +71,7 @@ const AboutMe = () => {
         >
           <div className="bubble-content">
             <h3>Education</h3>
-            {isHovered && (
+            {isHovered3 && (
               <p>
                 In my pursuit of knowledge, I'm about to graduate with a
                 Bachelor of Applied Information, setting my sights on web
