@@ -143,9 +143,9 @@
 }
 
 .aboutMe {
-  position: absolute;
+  position: relative;
   right: 0;
-  top: 25%;
+  top: 20%;
   transform: translate(-25%, -50%); /* Center the box */
   background-color: rgba(25, 25, 25, 0);
   padding: 10px;
@@ -154,6 +154,7 @@
   width: 100%; /* Expand the box to full width */
   flex: auto;
 }
+
 .aboutMe p {
   font-size: 14px;
 }
