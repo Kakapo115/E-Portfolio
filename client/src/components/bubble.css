@@ -14,7 +14,8 @@
   position: absolute;
   width: 100px;
   height: 100px;
-  background-color: #3498db;
+  background-color: rgba(255, 255, 255, 0.9);
+  box-shadow: 3px 3px #888888;
   border-radius: 50%;
   display: flex;
   align-items: center;
@@ -29,8 +30,8 @@
 }
 
 .hovered {
-  width: 200px;
-  height: 200px;
+  width: 350px;
+  height: 350px;
   animation: none; /* Disable animation when hovered */
 }
 
@@ -39,6 +40,6 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  color: #fff;
+  color: #9d4edd;
   text-align: center;
 }
