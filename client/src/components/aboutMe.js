@@ -5,9 +5,19 @@ import "./bubble.css";
 
 const AboutMe = () => {
   const [isHovered, setIsHovered] = useState(false);
+  const [isHovered2, setIsHovered2] = useState(false);
+  const [isHovered3, setIsHovered3] = useState(false);
 
   const handleHover = () => {
     setIsHovered(!isHovered);
+  };
+
+  const handleHover2 = () => {
+    setIsHovered2(!isHovered2);
+  };
+
+  const handleHover3 = () => {
+    setIsHovered3(!isHovered3);
   };
 
   return (
@@ -33,9 +43,9 @@ const AboutMe = () => {
           </div>
         </div>
         <div
-          className={`bubble ${isHovered ? "hovered" : ""}`}
-          onMouseEnter={handleHover}
-          onMouseLeave={handleHover}
+          className={`bubble ${isHovered2 ? "hovered" : ""}`}
+          onMouseEnter={handleHover2}
+          onMouseLeave={handleHover2}
           style={{ top: "120px", left: "120px" }}
         >
           <div className="bubble-content">
@@ -54,9 +64,9 @@ const AboutMe = () => {
           </div>
         </div>
         <div
-          className={`bubble ${isHovered ? "hovered" : ""}`}
-          onMouseEnter={handleHover}
-          onMouseLeave={handleHover}
+          className={`bubble ${isHovered3 ? "hovered" : ""}`}
+          onMouseEnter={handleHover3}
+          onMouseLeave={handleHover3}
           style={{ top: "240px", left: "240px" }}
         >
           <div className="bubble-content">
