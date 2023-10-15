@@ -1,5 +1,5 @@
 // displays information about me
-import React, { Component } from "react";
+import React, { Component, useState } from "react";
 import SocialIcons from "./socialIcons.js"; // Import the Social Icons component
 import "./Bubble.css";
 class AboutMe extends Component {
