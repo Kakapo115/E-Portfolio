@@ -153,7 +153,7 @@
   width: 100%; /* Expand the box to full width */
   flex: auto;
   display: flex; /* Make it a flex container */
-  gap: 20px; /* Add gap between bubbles */
+  gap: 60px; /* Add gap between bubbles */
   justify-content: center; /* Center horizontally */
 }
 .aboutMe p {
@@ -222,7 +222,8 @@ a {
   height: 100px;
   width: auto;
   background-color: rgba(255, 255, 255, 1);
-  transition: transform 0.3s ease; /* Add transition for smooth rotation */
+  transition: all 0.3s ease-in-out; /* Add transition for smooth rotation */
+  animation: floatAnimation 3s infinite ease-in-out;
 }
 .icon:hover {
   transform: rotate(360deg) scale(1.2);
