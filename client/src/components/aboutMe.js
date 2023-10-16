@@ -22,16 +22,6 @@ const AboutMe = () => {
   return (
     <div className="section section1" id="about">
       <div className="aboutMe">
-        <a href="https://github.com/Kakapo115">
-          <img src="GitHub-Logo.png" className="icon git" alt="Halfway Climb" />
-        </a>
-        <a href="https://www.linkedin.com/in/ricky-syme-b79701232/">
-          <img
-            src="linkdin-icon.png"
-            className="icon linkdin"
-            alt="Halfway Climb"
-          />
-        </a>
         <div
           className={`bubble ${isHovered ? "hovered" : ""}`}
           onMouseEnter={handleHover}
@@ -93,6 +83,16 @@ const AboutMe = () => {
             )}
           </div>
         </div>
+        <a href="https://github.com/Kakapo115">
+          <img src="GitHub-Logo.png" className="icon git" alt="Halfway Climb" />
+        </a>
+        <a href="https://www.linkedin.com/in/ricky-syme-b79701232/">
+          <img
+            src="linkdin-icon.png"
+            className="icon linkdin"
+            alt="Halfway Climb"
+          />
+        </a>
       </div>
       <img src="midjour_basecamp_topcut.png" className="img" alt="Base Camp" />
     </div>
