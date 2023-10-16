@@ -247,10 +247,7 @@ a {
 }
 .icon:hover {
   transform: scale(1.2);
-  animation: none;
-}
-.icon:hover img {
-  animation: spinAnimation 1s infinite linear; /* Add rotation only on hover */
+  animation: spinAnimation 1s infinite linear;
 }
 .git {
   border-radius: 90px;
