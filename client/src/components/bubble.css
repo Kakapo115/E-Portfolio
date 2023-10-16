@@ -25,6 +25,10 @@
   animation: floatAnimation 3s infinite ease-in-out;
 }
 
+.bubble:hover {
+  transform: scale(1.1);
+  animation: none; /* Disable animation when hovered */
+}
 
 .hovered {
   width: 350px;
