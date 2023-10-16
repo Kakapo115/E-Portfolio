@@ -26,7 +26,7 @@ const AboutMe = () => {
           className={`bubble ${isHovered ? "hovered" : ""}`}
           onMouseEnter={handleHover}
           onMouseLeave={handleHover}
-          style={{ top: "120px", left: 0 }}
+          
         >
           <div className="bubble-content">
             <h3>About Me</h3>
@@ -45,7 +45,7 @@ const AboutMe = () => {
           className={`bubble ${isHovered2 ? "hovered" : ""}`}
           onMouseEnter={handleHover2}
           onMouseLeave={handleHover2}
-          style={{ top: "120px", left: "120px" }}
+          
         >
           <div className="bubble-content">
             <h3>Career</h3>
@@ -66,7 +66,7 @@ const AboutMe = () => {
           className={`bubble ${isHovered3 ? "hovered" : ""}`}
           onMouseEnter={handleHover3}
           onMouseLeave={handleHover3}
-          style={{ top: "120px", left: "240px" }}
+          
         >
           <div className="bubble-content">
             <h3>Education</h3>
