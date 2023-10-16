@@ -152,7 +152,6 @@
   border-radius: 5px;
   max-width: 50%;
   width: 100%; /* Expand the box to full width */
-  flex: auto;
 }
 
 .backgroundcolooor {
