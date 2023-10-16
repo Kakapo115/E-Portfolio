@@ -155,6 +155,7 @@
   flex: auto;
   display: flex; /* Make it a flex container */
   gap: 20px; /* Add gap between bubbles */
+  justify-content: center; /* Center horizontally */
 }
 
 .aboutMe p {
