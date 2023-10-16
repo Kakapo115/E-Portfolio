@@ -226,6 +226,7 @@ a {
   animation: floatAnimation 3s infinite ease-in-out;
 }
 .icon:hover {
+  animation: none;
   transform: rotate(360deg) scale(1.2);
 }
 .git {
