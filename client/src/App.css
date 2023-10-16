@@ -144,7 +144,7 @@
 
 .aboutMe {
   position: absolute;
-  top: 50%;
+  top: 35%;
   right: 10%;
   background-color: red;
   padding: 10px;
@@ -222,7 +222,7 @@ a {
   height: 100px;
   width: auto;
   background-color: rgba(255, 255, 255, 1);
-  transition: all 0.3s ease-in-out; /* Add transition for smooth rotation */
+  transition: transform 0.3s ease; /* Add transition for smooth rotation */
   animation: floatAnimation 3s infinite ease-in-out;
 }
 .icon:hover {
