@@ -145,7 +145,8 @@
 .aboutMe {
   position: absolute;
   top: 50%;
-  background-color: rgba(25, 25, 25, 0.5);
+  right: 10%;
+  background-color: red;
   padding: 10px;
   border-radius: 5px;
   max-width: 80%;
