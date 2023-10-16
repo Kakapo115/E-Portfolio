@@ -217,6 +217,26 @@ a {
   cursor: pointer; /* Show the pointer cursor on hover */
 }
 
+@keyframes floatAnimation {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+@keyframes spinAnimation {
+  0% {
+    transform: rotate(0);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
 
 .icon {
   height: 100px;
@@ -226,8 +246,11 @@ a {
   animation: floatAnimation 3s infinite ease-in-out;
 }
 .icon:hover {
-  transform: rotate(360deg) scale(1.2) !important;
+  transform: scale(1.2);
   animation: none;
+}
+.icon:hover img {
+  animation: spinAnimation 1s infinite linear; /* Add rotation only on hover */
 }
 .git {
   border-radius: 90px;
