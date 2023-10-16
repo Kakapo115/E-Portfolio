@@ -145,7 +145,7 @@
 .aboutMe {
   position: absolute;
   right: 0;
-  top: 20%;
+  top: 50%;
   transform: translate(-25%, -50%); /* Center the box */
   background-color: rgba(25, 25, 25, 0.5);
   padding: 10px;
@@ -153,6 +153,8 @@
   max-width: 50%;
   width: 100%; /* Expand the box to full width */
   flex: auto;
+  display: flex; /* Make it a flex container */
+  gap: 20px; /* Add gap between bubbles */
 }
 
 .aboutMe p {
@@ -238,6 +240,7 @@ a {
   height: 100px;
   width: auto;
   background-color: rgba(255, 255, 255, 1);
+  transition: transform 0.3s ease; /* Add transition for smooth rotation */
 }
 
 .icon:hover {
