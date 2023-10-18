@@ -69,12 +69,7 @@ const AboutMe = () => {
                 Bachelor of Applied Information, setting my sights on web
                 development within the digital technology sector. Unlike my past
                 in manual labor as an orchard hand, I bring to the tech realm a
-                blend of academic resilience and hands-on experience. As I step
-                into this new chapter, my diverse interests, from outdoor
-                activities like camping and fishing to indoor pursuits such as
-                gaming, enrich my academic foundation. With a solid grounding
-                and a zest for innovation, I am prepared to offer a distinct
-                viewpoint to the ever-evolving world of technology.
+                blend of academic resilience and hands-on experience.
               </p>
             )}
           </div>
