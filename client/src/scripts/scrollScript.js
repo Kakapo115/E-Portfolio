@@ -17,7 +17,7 @@ export function setupScroll() {
 
   document.addEventListener("scroll", function () {
     const sections = document.querySelectorAll(".section");
-    const opacityFactor = 0.7; // Adjust this factor to control the rate of opacity change
+    const opacityFactor = 0.3; // Adjust this factor to control the rate of opacity change
     
     sections.forEach(function (section) {
       const rect = section.getBoundingClientRect();
