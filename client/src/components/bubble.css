@@ -2,8 +2,17 @@
   0% {
     transform: translate(0, 0);
   }
-  50% {
-    transform: translate(-5px, -10px);
+  20% {
+    transform: translate(-4px, -10px);
+  }
+  40% {
+    transform: translate(4px, -10px);
+  }
+  60% {
+    transform: translate(-4px, 10px);
+  }
+  80% {
+    transform: translate(4px, 10px);
   }
   100% {
     transform: translate(0, 0);
@@ -22,7 +31,7 @@
   justify-content: center;
   cursor: pointer;
   transition: all 0.3s ease-in-out;
-  animation: floatAnimation 5s infinite ease-in-out;
+  animation: floatAnimation 8s infinite ease-in-out;
   box-sizing: content-box;
 }
 
