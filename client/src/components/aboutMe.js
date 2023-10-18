@@ -87,7 +87,7 @@ const AboutMe = () => {
               <img
                 src={index === 3 ? "GitHub-Logo.png" : "linkdin-icon.png"}
                 className={`icon ${index === 3 ? "git" : "linkdin"}`}
-                alt="Halfway Climb"
+                alt={index === 3 ? "GitHub-Logo" : "linkdin-icon"}
               />
             </a>
           </div>
