@@ -79,9 +79,7 @@
 .icon {
   height: 100px;
   width: auto;
-  background-color: rgba(255, 255, 255, 1);
-  transition: all 0.3s ease-in-out;
-  animation: floatAnimation 3s infinite ease-in-out;
+  background-color: rgba(255, 255, 255, 1); 
 }
 .icon:hover {
   transform: scale(1.2);
