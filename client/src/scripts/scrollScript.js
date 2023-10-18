@@ -17,10 +17,11 @@ export function setupScroll() {
 
   document.addEventListener("scroll", function () {
     const sections = document.querySelectorAll(".section");
-
+    const opacityFactor = 0.7; // Adjust this factor to control the rate of opacity change
+    
     sections.forEach(function (section) {
       const rect = section.getBoundingClientRect();
-      const opacity = 1 - Math.abs(rect.top) / window.innerHeight;
+      const opacity = 1 - Math.abs(rect.top) / (window.innerHeight * opacityFactor);
 
       section.style.opacity = opacity >= 0 ? opacity : 0;
     });
