@@ -37,7 +37,7 @@
   justify-content: center;
   cursor: pointer;
   transition: all 0.3s ease-in-out;
-  animation: floatAnimation 3s infinite ease-in-out;
+  animation: floatAnimation 8s infinite ease-in-out;
   box-sizing: content-box;
 }
 
