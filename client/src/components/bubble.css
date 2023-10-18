@@ -2,29 +2,23 @@
   0% {
     transform: translate(0, 0);
   }
-  12.5% {
+  16.6667% {
     transform: translate(-10px, -20px);
   }
-  25% {
+  33.3333% {
     transform: translate(10px, -20px);
-  }
-  37.5% {
-    transform: translate(10px, 20px);
   }
   50% {
+    transform: translate(0, 0);
+  }
+  66.6667% {
     transform: translate(-10px, 20px);
   }
-  62.5% {
-    transform: translate(-10px, -20px);
-  }
-  75% {
-    transform: translate(10px, -20px);
-  }
-  87.5% {
+  83.3333% {
     transform: translate(10px, 20px);
   }
   100% {
-    transform: translate(-10px, 20px);
+    transform: translate(0, 0);
   }
 }
 
@@ -40,7 +34,7 @@
   justify-content: center;
   cursor: pointer;
   transition: all 0.3s ease-in-out;
-  animation: floatAnimation 8s infinite ease-in-out;
+  animation: floatAnimation 5s infinite ease-in-out;
   box-sizing: content-box;
 }
 
