@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React from "react"; // , { useEffect }
 import "./App.css";
 //import { setupScroll } from "./scripts/scrollScript"; // Import the scrollScript
 import HeaderNav from "./components/headerNav"; // Import Header section
