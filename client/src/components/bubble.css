@@ -2,19 +2,16 @@
   0% {
     transform: translate(0, 0);
   }
-  16.6667% {
+  20% {
     transform: translate(-10px, -20px);
   }
-  33.3333% {
+  40% {
     transform: translate(10px, -20px);
   }
-  50% {
-    transform: translate(0, 0);
-  }
-  66.6667% {
+  60% {
     transform: translate(-10px, 20px);
   }
-  83.3333% {
+  80% {
     transform: translate(10px, 20px);
   }
   100% {
