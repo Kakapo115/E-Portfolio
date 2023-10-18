@@ -15,18 +15,6 @@ const AboutMe = () => {
     setter(false);
   };
 
-  // const handleHover = () => {
-  //   setIsHovered(!isHovered);
-  // };
-
-  const handleHover2 = () => {
-    setIsHovered2(!isHovered2);
-  };
-
-  const handleHover3 = () => {
-    setIsHovered3(!isHovered3);
-  };
-
   return (
     <div className="section section1" id="about">
       <div className="aboutMe">
@@ -50,8 +38,8 @@ const AboutMe = () => {
         </div>
         <div
           className={`bubble ${isHovered2 ? "hovered" : ""}`}
-          onMouseEnter={handleHover2}
-          onMouseLeave={handleHover2}
+          onMouseEnter={() => handleMouseEnter(setIsHovered2)}
+          onMouseLeave={() => handleMouseLeave(setIsHovered2)}
         >
           <div className="bubble-content">
             <h3>Career</h3>
@@ -70,8 +58,8 @@ const AboutMe = () => {
         </div>
         <div
           className={`bubble ${isHovered3 ? "hovered" : ""}`}
-          onMouseEnter={handleHover3}
-          onMouseLeave={handleHover3}
+          onMouseEnter={() => handleMouseEnter(setIsHovered3)}
+          onMouseLeave={() => handleMouseLeave(setIsHovered3)}
         >
           <div className="bubble-content">
             <h3>Education</h3>
