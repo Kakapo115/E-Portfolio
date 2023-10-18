@@ -20,12 +20,21 @@ export function setupScroll() {
     if (window.innerWidth >= 1024) {
       const sections = document.querySelectorAll(".section");
       const opacityFactor = 0.9; // Adjust this factor to control the rate of opacity change
+      const minOpacity = 0.3; // Adjust the minimum opacity as needed
 
       sections.forEach(function (section) {
         const rect = section.getBoundingClientRect();
-        const opacity = 1 - Math.abs(rect.top) / (window.innerHeight * opacityFactor);
+        const opacity =
+          minOpacity +
+          (1 - minOpacity) * (1 - Math.abs(rect.top) / (window.innerHeight * opacityFactor));
 
-        section.style.opacity = opacity >= 0 ? opacity : 0;
+        section.style.opacity = opacity >= minOpacity ? opacity : minOpacity;
+      });
+    } else {
+      // If the screen size is smaller, set all sections to full opacity
+      const sections = document.querySelectorAll(".section");
+      sections.forEach(function (section) {
+        section.style.opacity = 1;
       });
     }
   });
