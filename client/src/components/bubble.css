@@ -85,7 +85,7 @@
 }
 .icon:hover {
   transform: scale(1.2);
-  animation: spinAnimation 1s linear;
+  animation: spinAnimation 1s infinite linear;
 }
 .git {
   border-radius: 90px;
