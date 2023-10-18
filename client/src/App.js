@@ -1,6 +1,6 @@
 import React, { useEffect } from "react";
 import "./App.css";
-import { setupScroll } from "./scripts/scrollScript"; // Import the scrollScript
+//import { setupScroll } from "./scripts/scrollScript"; // Import the scrollScript
 import HeaderNav from "./components/headerNav"; // Import Header section
 import AboutMe from "./components/aboutMe"; // Import the About Me section
 import MyWork from "./components/myWork"; // Import the My Work section
@@ -12,9 +12,9 @@ function App() {
   axios.defaults.withCredentials = true;
 
   // Call the setupScroll function on component mount
-  useEffect(() => {
-    setupScroll();
-  }, []);
+  // useEffect(() => {
+  //   setupScroll();
+  // }, []);
 
   return (
     <div className="App">
