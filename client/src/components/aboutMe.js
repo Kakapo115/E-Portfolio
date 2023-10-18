@@ -15,9 +15,9 @@ const AboutMe = () => {
     setter(false);
   };
 
-  const handleHover = () => {
-    setIsHovered(!isHovered);
-  };
+  // const handleHover = () => {
+  //   setIsHovered(!isHovered);
+  // };
 
   const handleHover2 = () => {
     setIsHovered2(!isHovered2);
