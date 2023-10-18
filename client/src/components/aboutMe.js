@@ -11,7 +11,7 @@ const AboutMe = () => {
     const generateRandomDelays = () => {
       return Array(5)
         .fill()
-        .map(() => Math.random() * 2 + 1); // Adjust the range as needed
+        .map(() => Math.random() * 5); // Adjust the range as needed
     };
 
     // Initial random delays
