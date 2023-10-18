@@ -43,7 +43,7 @@
   text-align: center;
   font-weight: bold;
   color: #e0aaff;
-  /* opacity: 0; Initially set the opacity to 0 for fading effect */
+  opacity: 0; /* Initially set the opacity to 0 for fading effect */
   transition: opacity 0.5s ease; /* Add a transition for smooth fading */
   position: relative; /* Add this to allow .textbox to be positioned relative to .section */
   margin: 0;
