@@ -80,7 +80,7 @@
   height: 100px;
   width: auto;
   background-color: rgba(255, 255, 255, 1);
-  transition: transform 0.3s ease; /* Add transition for smooth rotation */
+  transition: all 0.3s ease-in-out;
   animation: floatAnimation 3s infinite ease-in-out;
 }
 .icon:hover {
