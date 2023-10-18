@@ -75,12 +75,16 @@ const AboutMe = () => {
           </div>
         </div>
         <a href="https://github.com/Kakapo115">
-          <img src="GitHub-Logo.png" className="icon git" alt="Halfway Climb" />
+          <img
+            src="GitHub-Logo.png"
+            className="icon git bubble"
+            alt="Halfway Climb"
+          />
         </a>
         <a href="https://www.linkedin.com/in/ricky-syme-b79701232/">
           <img
             src="linkdin-icon.png"
-            className="icon linkdin"
+            className="icon linkdin bubble"
             alt="Halfway Climb"
           />
         </a>
