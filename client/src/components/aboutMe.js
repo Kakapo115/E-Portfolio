@@ -28,6 +28,8 @@ const AboutMe = () => {
     speed: 500, // Transition speed in milliseconds
     slidesToShow: 3, // Number of slides to show at a time
     slidesToScroll: 1, // Number of slides to scroll at a time
+    autoplay: true, // Enable autoplay
+    autoplaySpeed: 5000, // Set the autoplay speed in milliseconds
   };
 
   const bubbleContent = [
