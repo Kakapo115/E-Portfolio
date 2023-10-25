@@ -40,7 +40,9 @@
 }
 /* Add a media query for screens smaller than a certain width */
 @media screen and (max-width: 1024px) {
-  
+  .img {
+    width: 130%;
+  }
 }
 @media screen and (max-width: 768px) {
   .header-right {
@@ -50,10 +52,14 @@
   .header h1 {
     width: 100%; /* Make h1 cover the whole width */
   }
-  
+  .img {
+    width: 150%;
+  }
 } 
 @media screen and (max-width: 480px) {
-  
+  .img {
+    width: 170%;
+  }
 } 
 
 .section {
@@ -76,6 +82,7 @@
   height: auto;
   width: 100%;
   margin: -2px;
+  overflow: hidden; /* Hide the overflowing content */
 }
 
 .preview {
