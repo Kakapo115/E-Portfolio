@@ -81,29 +81,30 @@ const AboutMe = () => {
               </div>
             </div>
           ))}
-        </Slider>
-        {/* Icons */}
-        {[3, 4].map((index) => (
-          <div
-            key={index}
-            className="bubble"
-            style={{ animationDelay: `${randomDelays[index]}s` }}
-          >
-            <a
-              href={
-                index === 3
-                  ? "https://github.com/Kakapo115"
-                  : "https://www.linkedin.com/in/ricky-syme-b79701232/"
-              }
+
+          {/* Icons */}
+          {[3, 4].map((index) => (
+            <div
+              key={index}
+              className="bubble"
+              style={{ animationDelay: `${randomDelays[index]}s` }}
             >
-              <img
-                src={index === 3 ? "GitHub-Logo.png" : "linkdin-icon.png"}
-                className={`icon ${index === 3 ? "git" : "linkdin"}`}
-                alt={index === 3 ? "GitHub-Logo" : "linkdin-icon"}
-              />
-            </a>
-          </div>
-        ))}
+              <a
+                href={
+                  index === 3
+                    ? "https://github.com/Kakapo115"
+                    : "https://www.linkedin.com/in/ricky-syme-b79701232/"
+                }
+              >
+                <img
+                  src={index === 3 ? "GitHub-Logo.png" : "linkdin-icon.png"}
+                  className={`icon ${index === 3 ? "git" : "linkdin"}`}
+                  alt={index === 3 ? "GitHub-Logo" : "linkdin-icon"}
+                />
+              </a>
+            </div>
+          ))}
+        </Slider>
       </div>
       <img src="midjour_basecamp_topcut.png" className="img" alt="Base Camp" />
     </div>
