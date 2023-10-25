@@ -59,6 +59,19 @@
   text-align: center;
   padding: 3% 10% 10% 10%;;
 }
+/* Add a media query for screens smaller than a certain width */
+@media screen and (max-width: 1450px) {
+  .aboutMe .hovered {
+    width: 80% !important;
+    height: 60%;
+  }
+}
+@media screen and (max-width: 768px) {
+  
+}
+@media screen and (max-width: 480px) {
+  
+}
 
 @keyframes spinAnimation {
   0% {
