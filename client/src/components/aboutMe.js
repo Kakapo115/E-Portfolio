@@ -26,7 +26,7 @@ const AboutMe = () => {
     dots: true, // Display dots for navigation
     infinite: true, // Enable infinite loop
     speed: 500, // Transition speed in milliseconds
-    slidesToShow: 1, // Number of slides to show at a time
+    slidesToShow: 3, // Number of slides to show at a time
     slidesToScroll: 1, // Number of slides to scroll at a time
   };
 
