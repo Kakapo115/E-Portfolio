@@ -16,7 +16,7 @@
   }
 }
 
-.aboutMe .bubble {
+.bubble {
   position: relative;
   width: 100px;
   height: 100px;
@@ -30,6 +30,10 @@
   transition: all 0.3s ease-in-out;
   animation: floatAnimation 5s infinite ease-in-out;
   box-sizing: border-box;
+}
+
+.aboutMe .bubble {
+  width: 70%;
 }
 
 .bubble:hover {
