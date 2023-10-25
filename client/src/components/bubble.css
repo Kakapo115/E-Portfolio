@@ -101,6 +101,7 @@
 }
 
 .slick-list {
+  overflow: visible;
   overflow-y: visible;
 }
 
