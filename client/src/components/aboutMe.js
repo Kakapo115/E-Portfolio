@@ -24,7 +24,7 @@ const AboutMe = () => {
 
   const yourSliderSettings = {
     dots: true, // Display dots for navigation
-    // infinite: true, // Enable infinite loop
+    infinite: true, // Enable infinite loop
     speed: 500, // Transition speed in milliseconds
     slidesToShow: 1, // Number of slides to show at a time
     slidesToScroll: 1, // Number of slides to scroll at a time
@@ -81,30 +81,29 @@ const AboutMe = () => {
               </div>
             </div>
           ))}
-
-          {/* Icons */}
-          {[3, 4].map((index) => (
-            <div
-              key={index}
-              className="bubble"
-              style={{ animationDelay: `${randomDelays[index]}s` }}
-            >
-              <a
-                href={
-                  index === 3
-                    ? "https://github.com/Kakapo115"
-                    : "https://www.linkedin.com/in/ricky-syme-b79701232/"
-                }
-              >
-                <img
-                  src={index === 3 ? "GitHub-Logo.png" : "linkdin-icon.png"}
-                  className={`icon ${index === 3 ? "git" : "linkdin"}`}
-                  alt={index === 3 ? "GitHub-Logo" : "linkdin-icon"}
-                />
-              </a>
-            </div>
-          ))}
         </Slider>
+        {/* Icons */}
+        {[3, 4].map((index) => (
+          <div
+            key={index}
+            className="bubble"
+            style={{ animationDelay: `${randomDelays[index]}s` }}
+          >
+            <a
+              href={
+                index === 3
+                  ? "https://github.com/Kakapo115"
+                  : "https://www.linkedin.com/in/ricky-syme-b79701232/"
+              }
+            >
+              <img
+                src={index === 3 ? "GitHub-Logo.png" : "linkdin-icon.png"}
+                className={`icon ${index === 3 ? "git" : "linkdin"}`}
+                alt={index === 3 ? "GitHub-Logo" : "linkdin-icon"}
+              />
+            </a>
+          </div>
+        ))}
       </div>
       <img src="midjour_basecamp_topcut.png" className="img" alt="Base Camp" />
     </div>
