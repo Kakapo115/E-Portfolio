@@ -97,7 +97,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  padding-left: 20px;
+  padding: 10px;
 }
 
 .slick-list {
