@@ -63,7 +63,8 @@
   opacity: 0; /* Initially set the opacity to 0 for fading effect */
   transition: opacity 0.5s ease; /* Add a transition for smooth fading */
   position: relative; /* Add this to allow .textbox to be positioned relative to .section */
-  margin: 0;
+  margin-right: calc(50vw - 50%); /* Half of the viewport width minus 50% of the container width */
+  margin-left: calc(50vw - 50%); /* Half of the viewport width minus 50% of the container width */
 }
 
 .section1 {
@@ -73,11 +74,14 @@
 }
 
 .img {
-  height: auto;
-  width: 100%;
-  margin: -2px;
-  background-size: cover; /* This will make the background image cover the entire container */
-  background-position: center; /* Center the background image */
+  height: 100vh; /* Use viewport height to make the image cover the entire height of the viewport */
+  width: 100vw; /* Use viewport width to make the image cover the entire width of the viewport */
+  object-fit: cover; /* Maintain the aspect ratio while covering the entire container */
+  object-position: center; /* Center the image within the container */
+  position: fixed; /* Fix the position of the image */
+  top: 0;
+  left: 0;
+  z-index: -1; /* Move the image to the background */
 }
 
 .preview {
