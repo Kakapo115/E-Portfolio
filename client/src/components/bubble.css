@@ -53,6 +53,7 @@
   justify-content: center;
   color: #e0aaff;
   text-align: center;
+  margin: -10%; /* Adjust margin to prevent overflow */
 }
 
 @keyframes spinAnimation {
@@ -97,6 +98,7 @@
   justify-content: center;
   align-items: center;
   padding: 10px;
+  border-radius: 50%; /* Make the slides circular */
 }
 
 .slick-list {
