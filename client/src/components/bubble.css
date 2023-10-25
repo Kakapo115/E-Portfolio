@@ -133,7 +133,6 @@
 
 .aboutMe .slick-prev,
 .aboutMe .slick-next {
-  font-size: 20px; /* Adjust the font size to change the arrow size */
   color: #e0aaff; /* Set the arrow color */
   background: none; /* Remove the background */
   border: none; /* Remove the border */
