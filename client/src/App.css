@@ -40,7 +40,7 @@
 }
 /* Add a media query for screens smaller than a certain width */
 @media screen and (max-width: 1024px) {
-  .img {
+  .section .img {
     width: 130%;
   }
 }
@@ -52,12 +52,12 @@
   .header h1 {
     width: 100%; /* Make h1 cover the whole width */
   }
-  .img {
+  .section .img {
     width: 150%;
   }
 } 
 @media screen and (max-width: 480px) {
-  .img {
+  .section .img {
     width: 170%;
   }
 } 
