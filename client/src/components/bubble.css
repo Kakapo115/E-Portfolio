@@ -131,6 +131,30 @@
   overflow-x: clip;
 }
 
+.slick-prev,
+.slick-next {
+  font-size: 20px; /* Adjust the font size to change the arrow size */
+  color: #e0aaff; /* Set the arrow color */
+  background: none; /* Remove the background */
+  border: none; /* Remove the border */
+}
+
+.slick-prev {
+  left: -30px; /* Adjust the position of the left arrow */
+}
+
+.slick-next {
+  right: -30px; /* Adjust the position of the right arrow */
+}
+
+/* Add the following media query to adjust styles for smaller screens if needed */
+@media screen and (max-width: 768px) {
+  .slick-prev,
+  .slick-next {
+    font-size: 16px; /* Adjust the font size for smaller screens */
+  }
+}
+
 /* @media screen and (max-width: 1200px) {} */
 /* Add a media query for screens smaller than a certain width */
 /* @media screen and (max-width: 768px) {} */
