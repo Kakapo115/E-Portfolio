@@ -88,7 +88,7 @@ const AboutMe = () => {
           {[3, 4].map((index) => (
             <div
               key={index}
-              className=""
+              className="bubble"
               style={{ animationDelay: `${randomDelays[index]}s` }}
             >
               <a
