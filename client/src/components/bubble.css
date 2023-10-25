@@ -29,7 +29,7 @@
   cursor: pointer;
   transition: all 0.3s ease-in-out;
   animation: floatAnimation 5s infinite ease-in-out;
-  box-sizing: content-box;
+  box-sizing: border-box;
 }
 
 .bubble:hover {
