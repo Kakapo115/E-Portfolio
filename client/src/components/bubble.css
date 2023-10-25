@@ -18,8 +18,8 @@
 
 .bubble {
   position: relative;
-  width: 100px;
-  height: 100px;
+  width: 10%;
+  height: 10%;
   background-color: #10002bb5;
   box-shadow: 1px 1px 3px #10002b93;
   border-radius: 50%;
@@ -38,8 +38,8 @@
 }
 
 .hovered {
-  width: 350px;
-  height: 350px;
+  width: 20%;
+  height: 20%;
   animation: none; /* Disable animation when hovered */
 }
 
@@ -80,22 +80,6 @@
   border-radius: 14px;
   box-shadow: 1px 3px 3px #10002b93;
 }
-
+@media screen and (max-width: 1200px) {}
 /* Add a media query for screens smaller than a certain width */
-@media screen and (max-width: 768px) {
-  .bubble {
-    width: 50px; /* Adjust the width for smaller screens */
-    height: 50px; /* Adjust the height for smaller screens */
-    
-  }
-  .bubble-content {
-    font-size: 12px; /* Adjust the font size for smaller screens */
-  }
-  .hovered {
-    width: 200px; /* Adjust the width for smaller screens */
-    height: 200px; /* Adjust the height for smaller screens */
-  }
-  .icon {
-    height: 100px;
-  }
-}
+@media screen and (max-width: 768px) {}
