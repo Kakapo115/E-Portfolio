@@ -41,7 +41,7 @@
 /* Add a media query for screens smaller than a certain width */
 @media screen and (max-width: 1024px) {
   .section .img {
-    width: 130%;
+    width: 150%;
     overflow: hidden; /* Hide the overflowing content */
   }
 }
@@ -54,13 +54,13 @@
     width: 100%; /* Make h1 cover the whole width */
   }
   .section .img {
-    width: 150%;
+    width: 200%;
     overflow: hidden; /* Hide the overflowing content */
   }
 } 
 @media screen and (max-width: 480px) {
   .section .img {
-    width: 170%;
+    width: 300%;
     overflow: hidden; /* Hide the overflowing content */
   }
 } 
