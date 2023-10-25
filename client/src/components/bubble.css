@@ -53,6 +53,7 @@
   justify-content: center;
   color: #e0aaff;
   text-align: center;
+  margin: -20%;
 }
 
 @keyframes spinAnimation {
