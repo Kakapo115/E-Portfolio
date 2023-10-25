@@ -42,6 +42,7 @@
 @media screen and (max-width: 1024px) {
   .section .img {
     width: 130%;
+    overflow: hidden; /* Hide the overflowing content */
   }
 }
 @media screen and (max-width: 768px) {
@@ -54,11 +55,13 @@
   }
   .section .img {
     width: 150%;
+    overflow: hidden; /* Hide the overflowing content */
   }
 } 
 @media screen and (max-width: 480px) {
   .section .img {
     width: 170%;
+    overflow: hidden; /* Hide the overflowing content */
   }
 } 
 
@@ -82,7 +85,6 @@
   height: auto;
   width: 100%;
   margin: -2px;
-  overflow: hidden; /* Hide the overflowing content */
 }
 
 .preview {
