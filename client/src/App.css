@@ -147,14 +147,11 @@
   position: absolute;
   top: 35%;
   right: 10%;
-  /* background-color: red; */
-  padding: 10px;
   border-radius: 5px;
   max-width: 80%;
   width: 100%; /* Expand the box to full width */
   flex: auto;
   display: flex; /* Make it a flex container */
-  gap: 60px; /* Add gap between bubbles */
   justify-content: center; /* Center horizontally */
 }
 .aboutMe p {
