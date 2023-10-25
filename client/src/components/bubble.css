@@ -82,9 +82,19 @@
   box-shadow: 1px 3px 3px #10002b93;
 }
 
+@keyframes spinCarousel {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
 .slick-slider {
   width: 100%; /* Set the width of the carousel */
   margin: 0 auto; /* Center the carousel */
+  animation: spinCarousel 20s linear infinite;
 }
 
 .slick-track {
