@@ -1,6 +1,9 @@
 // displays information about me
 import React, { useState, useEffect } from "react";
 import "./bubble.css";
+import Slider from "react-slick";
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
 
 const AboutMe = () => {
   const [isHovered, setIsHovered] = useState(Array(3).fill(false));
@@ -18,6 +21,14 @@ const AboutMe = () => {
     const initialDelays = generateRandomDelays();
     setRandomDelays(initialDelays);
   }, []);
+
+  const yourSliderSettings = {
+    dots: true, // Display dots for navigation
+    infinite: true, // Enable infinite loop
+    speed: 500, // Transition speed in milliseconds
+    slidesToShow: 1, // Number of slides to show at a time
+    slidesToScroll: 1, // Number of slides to scroll at a time
+  };
 
   const bubbleContent = [
     {
@@ -55,43 +66,45 @@ const AboutMe = () => {
   return (
     <div className="section section1" id="about">
       <div className="aboutMe">
-        {[0, 1, 2].map((index) => (
-          <div
-            key={index}
-            className={`bubble ${isHovered[index] ? "hovered" : ""}`}
-            onMouseEnter={() => handleMouseEnter(index)}
-            onMouseLeave={() => handleMouseLeave(index)}
-            style={{ animationDelay: `${randomDelays[index]}s` }}
-          >
-            <div className="bubble-content">
-              <h3>{bubbleContent[index].title}</h3>
-              {isHovered[index] && <p>{bubbleContent[index].content}</p>}
-            </div>
-          </div>
-        ))}
-
-        {/* Icons */}
-        {[3, 4].map((index) => (
-          <div
-            key={index}
-            className="bubble"
-            style={{ animationDelay: `${randomDelays[index]}s` }}
-          >
-            <a
-              href={
-                index === 3
-                  ? "https://github.com/Kakapo115"
-                  : "https://www.linkedin.com/in/ricky-syme-b79701232/"
-              }
+        <Slider {...yourSliderSettings}>
+          {[0, 1, 2].map((index) => (
+            <div
+              key={index}
+              className={`bubble ${isHovered[index] ? "hovered" : ""}`}
+              onMouseEnter={() => handleMouseEnter(index)}
+              onMouseLeave={() => handleMouseLeave(index)}
+              style={{ animationDelay: `${randomDelays[index]}s` }}
             >
-              <img
-                src={index === 3 ? "GitHub-Logo.png" : "linkdin-icon.png"}
-                className={`icon ${index === 3 ? "git" : "linkdin"}`}
-                alt={index === 3 ? "GitHub-Logo" : "linkdin-icon"}
-              />
-            </a>
-          </div>
-        ))}
+              <div className="bubble-content">
+                <h3>{bubbleContent[index].title}</h3>
+                {isHovered[index] && <p>{bubbleContent[index].content}</p>}
+              </div>
+            </div>
+          ))}
+
+          {/* Icons */}
+          {[3, 4].map((index) => (
+            <div
+              key={index}
+              className="bubble"
+              style={{ animationDelay: `${randomDelays[index]}s` }}
+            >
+              <a
+                href={
+                  index === 3
+                    ? "https://github.com/Kakapo115"
+                    : "https://www.linkedin.com/in/ricky-syme-b79701232/"
+                }
+              >
+                <img
+                  src={index === 3 ? "GitHub-Logo.png" : "linkdin-icon.png"}
+                  className={`icon ${index === 3 ? "git" : "linkdin"}`}
+                  alt={index === 3 ? "GitHub-Logo" : "linkdin-icon"}
+                />
+              </a>
+            </div>
+          ))}
+        </Slider>
       </div>
       <img src="midjour_basecamp_topcut.png" className="img" alt="Base Camp" />
     </div>
