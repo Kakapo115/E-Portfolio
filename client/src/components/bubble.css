@@ -131,19 +131,19 @@
   overflow-x: clip;
 }
 
-.slick-prev,
-.slick-next {
+.aboutMe .slick-prev,
+.aboutMe .slick-next {
   font-size: 20px; /* Adjust the font size to change the arrow size */
   color: #e0aaff; /* Set the arrow color */
   background: none; /* Remove the background */
   border: none; /* Remove the border */
 }
 
-.slick-prev {
+.aboutMe .slick-prev {
   left: -30px; /* Adjust the position of the left arrow */
 }
 
-.slick-next {
+.aboutMe .slick-next {
   right: -30px; /* Adjust the position of the right arrow */
 }
 
