@@ -76,6 +76,8 @@
   height: auto;
   width: 100%;
   margin: -2px;
+  background-size: cover; /* This will make the background image cover the entire container */
+  background-position: center; /* Center the background image */
 }
 
 .preview {
