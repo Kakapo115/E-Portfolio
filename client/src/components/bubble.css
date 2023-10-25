@@ -80,6 +80,6 @@
   border-radius: 14px;
   box-shadow: 1px 3px 3px #10002b93;
 }
-@media screen and (max-width: 1200px) {}
+/* @media screen and (max-width: 1200px) {} */
 /* Add a media query for screens smaller than a certain width */
-@media screen and (max-width: 768px) {}
+/* @media screen and (max-width: 768px) {} */
