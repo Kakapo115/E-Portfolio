@@ -52,6 +52,7 @@
 .section1 {
   margin-top: 0;
   opacity: 1;
+  position: relative;
 }
 
 .img {
@@ -143,7 +144,7 @@
 
 
 .aboutMe {
-  /* position: absolute; */
+  position: absolute;
   top: 35%;
   right: 10%;
   /* background-color: red; */
