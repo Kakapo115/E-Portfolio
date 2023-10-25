@@ -32,13 +32,13 @@ const AboutMe = () => {
     autoplaySpeed: 5000, // Set the autoplay speed in milliseconds
     responsive: [
       {
-        breakpoint: 1024,
+        breakpoint: 1200,
         settings: {
           slidesToShow: 2,
         },
       },
       {
-        breakpoint: 768,
+        breakpoint: 850,
         settings: {
           slidesToShow: 1,
         },
