@@ -71,7 +71,7 @@
   margin: auto;
 }
 .icon:hover {
-  transform: scale(1.2);
+  transform: scale(1.1);
   animation: spinAnimation 1s infinite linear;
 }
 .git {
