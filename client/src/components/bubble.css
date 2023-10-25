@@ -66,6 +66,12 @@
     height: 60%;
   }
 }
+@media screen and (max-width: 850px) {
+  .aboutMe .hovered {
+    width: 60% !important;
+    height: 60%;
+  }
+}
 
 @keyframes spinAnimation {
   0% {
