@@ -1,10 +1,10 @@
 Notes:
     Resizing:
-        resizing for Desktop - min-width 1024px
         resizing for Tablet - min-width 767px and max-width 1024px
         resizing for Smartphone - max-width 767px
     Work:
-        make child elements enhanced with backgrounds for each one - add style name to each db entry for personal styling.
         image preview adjustment to make them more passively in the view
-    Contact:
-        make text look a little nicer and blend into the back
+        add loading spinning circles for the work and preview sections if it hasnt loaded up yet
+Hosting:
+    Get to-do-app hosting
+

@@ -80,3 +80,17 @@
   border-radius: 14px;
   box-shadow: 1px 3px 3px #10002b93;
 }
+
+/* Add a media query for screens smaller than a certain width */
+@media screen and (max-width: 768px) {
+  .bubble {
+    width: 50px; /* Adjust the width for smaller screens */
+    height: 50px; /* Adjust the height for smaller screens */
+    font-size: 12px; /* Adjust the font size for smaller screens */
+  }
+
+  .hovered {
+    width: 200px; /* Adjust the width for smaller screens */
+    height: 200px; /* Adjust the height for smaller screens */
+  }
+}
