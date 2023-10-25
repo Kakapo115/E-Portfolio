@@ -40,7 +40,7 @@
 }
 /* Add a media query for screens smaller than a certain width */
 @media screen and (max-width: 1024px) {
-  .section {
+  .section .img {
     background-size: 110%; /* Adjust the background size for zooming effect */
   }
 }
@@ -52,12 +52,12 @@
   .header h1 {
     width: 100%; /* Make h1 cover the whole width */
   }
-  .section {
+  .section .img {
     background-size: 120%;
   }
 } 
 @media screen and (max-width: 480px) {
-  .section {
+  .section .img {
     background-size: 130%;
   }
 } 
