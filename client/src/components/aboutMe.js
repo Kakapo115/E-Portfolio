@@ -80,7 +80,7 @@ const AboutMe = () => {
     });
   };
   return (
-    <div className="section section1" id="about" style={{ backgroundImage: 'url("midjour_basecamp_topcut.png")' }}>
+    <div className="section section1" id="about">
       <div className="aboutMe">
         <Slider {...yourSliderSettings}>
           {[0, 1, 2].map((index) => (
@@ -122,6 +122,7 @@ const AboutMe = () => {
           ))}
         </Slider>
       </div>
+      <img src="midjour_basecamp_topcut.png" className="img" alt="Base Camp" />
     </div>
   );
 };

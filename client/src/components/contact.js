@@ -43,7 +43,7 @@ class Contact extends Component {
     const { name, email, message, sent, sending } = this.state;
 
     return (
-      <div className="section" id="contact" style={{ backgroundImage: 'url("midjour_topvalley.png")' }}>
+      <div className="section" id="contact">
         <div className="rightbox">
           <h1>Contact Me</h1>
           <form onSubmit={this.handleFormSubmit}>

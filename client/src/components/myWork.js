@@ -34,7 +34,7 @@ class MyWork extends Component {
   render() {
     const { webapps, selectedItem } = this.state;
     return (
-      <div className="section" id="work" style={{ backgroundImage: 'url("midjour_climbin.png")' }}>
+      <div className="section" id="work">
         <div className="leftbox">
           <h1 className="my-work-title">My Work</h1>
           {webapps.map((webapp) => (
@@ -65,6 +65,7 @@ class MyWork extends Component {
           )}
           <p>(Click image to enter)</p>
         </div>
+        <img src="midjour_climbin.png" className="img" alt="Halfway Climb" />
       </div>
     );
   }
