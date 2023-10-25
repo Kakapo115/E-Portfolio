@@ -90,6 +90,7 @@
 
 .slick-track {
   justify-content: center;
+  display: flex;
 }
 
 .slick-slide {
