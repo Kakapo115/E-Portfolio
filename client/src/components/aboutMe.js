@@ -55,7 +55,7 @@ const AboutMe = () => {
     {
       title: "Career",
       content:
-        "My professional journey reflects a fusion of academic dedication and physical labour experience. As I transition into the tech industry, I bring not only a curious mind and a penchant for innovation but also a love for the outdoors – be it camping, fishing, or hunting. Balancing this with my indoor adventures in exploring the digital realm, I am ready to contribute a unique perspective to the dynamic landscape of technology.",
+        "My professional journey reflects a fusion of academic dedication and physical labour experience. As I transition into the tech industry, I bring a love for the outdoors – be it camping, fishing, or hunting. Balancing this with my indoor adventures in exploring the digital realm, I am ready to contribute a unique perspective to the dynamic landscape of technology.",
     },
     {
       title: "Education",

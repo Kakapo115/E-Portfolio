@@ -115,6 +115,7 @@
 .aboutMe .slick-track {
   justify-content: center;
   display: flex;
+  height: 250px;
 }
 
 .aboutMe .slick-slide {
