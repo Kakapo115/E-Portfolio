@@ -91,6 +91,7 @@ const AboutMe = () => {
               className="bubble"
               style={{ animationDelay: `${randomDelays[index]}s` }}
             >
+              <div className="bubble-content">
               <a
                 href={
                   index === 3
@@ -104,6 +105,7 @@ const AboutMe = () => {
                   alt={index === 3 ? "GitHub-Logo" : "linkdin-icon"}
                 />
               </a>
+              </div>
             </div>
           ))}
         </Slider>
