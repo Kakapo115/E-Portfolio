@@ -100,9 +100,9 @@
   margin-left: 10px;
 }
 
-/* .slick-list {
-  
-} */
+.slick-list {
+  overflow: visible;
+}
 
 /* @media screen and (max-width: 1200px) {} */
 /* Add a media query for screens smaller than a certain width */
