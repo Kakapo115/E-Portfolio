@@ -40,7 +40,9 @@
 }
 /* Add a media query for screens smaller than a certain width */
 @media screen and (max-width: 1024px) {
-
+  .section {
+    background-size: 110%; /* Adjust the background size for zooming effect */
+  }
 }
 @media screen and (max-width: 768px) {
   .header-right {
@@ -50,9 +52,14 @@
   .header h1 {
     width: 100%; /* Make h1 cover the whole width */
   }
+  .section {
+    background-size: 120%;
+  }
 } 
 @media screen and (max-width: 480px) {
-  
+  .section {
+    background-size: 130%;
+  }
 } 
 
 .section {
@@ -63,6 +70,7 @@
   transition: opacity 0.5s ease; /* Add a transition for smooth fading */
   position: relative; /* Add this to allow .textbox to be positioned relative to .section */
   margin: 0;
+  background-size: 100%;
 }
 
 .section1 {
