@@ -24,7 +24,7 @@ const AboutMe = () => {
 
   const yourSliderSettings = {
     dots: true, // Display dots for navigation
-    infinite: true, // Enable infinite loop
+    // infinite: true, // Enable infinite loop
     speed: 500, // Transition speed in milliseconds
     slidesToShow: 1, // Number of slides to show at a time
     slidesToScroll: 1, // Number of slides to scroll at a time
