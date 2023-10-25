@@ -30,7 +30,7 @@
   transition: all 0.3s ease-in-out;
   animation: floatAnimation 5s infinite ease-in-out;
   box-sizing: content-box;
-  padding: 10px; /* Add padding to prevent clipping */
+  padding: -20px; /* Add padding to prevent clipping */
 }
 
 .bubble:hover {
