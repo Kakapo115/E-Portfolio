@@ -42,7 +42,6 @@
 @media screen and (max-width: 1024px) {
   .section .img {
     width: 150%;
-    overflow: hidden; /* Hide the overflowing content */
   }
 }
 @media screen and (max-width: 768px) {
@@ -55,15 +54,13 @@
   }
   .section .img {
     width: 200%;
-    overflow: hidden; /* Hide the overflowing content */
   }
-} 
+}
 @media screen and (max-width: 480px) {
   .section .img {
     width: 300%;
-    overflow: hidden; /* Hide the overflowing content */
   }
-} 
+}
 
 .section {
   text-align: center;
@@ -89,6 +86,7 @@
   margin: -2px;
   margin-left: auto;
   margin-right: auto;
+  overflow: hidden; /* Hide the overflowing content */
 }
 
 .preview {
@@ -152,7 +150,6 @@
   text-align: right;
 }
 
-
 .rightbox {
   position: absolute;
   right: 0;
@@ -172,7 +169,6 @@
   color: #9d4edd;
 }
 
-
 .aboutMe {
   position: absolute;
   top: 35%;
@@ -188,7 +184,6 @@
   font-size: 14px;
   color: #e0aaff;
 }
-
 
 .form-group {
   margin-bottom: 15px;
@@ -234,7 +229,6 @@
 .sent-message {
   color: green;
 }
-
 
 a {
   text-decoration: none;
