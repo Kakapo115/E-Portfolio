@@ -18,8 +18,8 @@
 
 .bubble {
   position: relative;
-  width: 10%;
-  height: 10%;
+  width: 100px;
+  height: 100px;
   background-color: #10002bb5;
   box-shadow: 1px 1px 3px #10002b93;
   border-radius: 50%;
