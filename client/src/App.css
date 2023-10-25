@@ -38,6 +38,22 @@
 .header h2 {
   margin: 0;
 }
+/* Add a media query for screens smaller than a certain width */
+@media screen and (max-width: 1024px) {
+
+}
+@media screen and (max-width: 768px) {
+
+} 
+@media screen and (max-width: 480px) {
+  .header-right {
+    display: none; /* Hide the content in header-right */
+  }
+
+  .header h1 {
+    width: 100%; /* Make h1 cover the whole width */
+  }
+} 
 
 .section {
   text-align: center;
