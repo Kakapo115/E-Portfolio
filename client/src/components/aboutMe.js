@@ -65,7 +65,7 @@ const AboutMe = () => {
   };
   return (
     <div className="section section1" id="about">
-      <div className="aboutMe">
+      <div>
         <Slider {...yourSliderSettings}>
           {[0, 1, 2].map((index) => (
             <div
