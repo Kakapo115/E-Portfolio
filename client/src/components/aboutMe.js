@@ -122,7 +122,13 @@ const AboutMe = () => {
           ))}
         </Slider>
       </div>
-      <img src="midjour_basecamp_topcut.png" className="img" alt="Base Camp" />
+      <div className="img-container">
+        <img
+          src="midjour_basecamp_topcut.png"
+          className="img"
+          alt="Base Camp"
+        />
+      </div>
     </div>
   );
 };
