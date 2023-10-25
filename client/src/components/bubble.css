@@ -44,8 +44,8 @@
 }
 
 .bubble-content {
-  width: 80%;
-  height: 80%;
+  width: 100%;
+  height: 100%;
   border-radius: 50%;
   display: flex;
   flex-direction: column;
@@ -91,7 +91,6 @@
 .slick-track {
   display: flex;
   justify-content: center;
-  border-radius: 50%;
 }
 
 .slick-slide {
@@ -99,12 +98,10 @@
   justify-content: center;
   align-items: center;
   padding: 10px;
-  border-radius: 50%; /* Make the slides circular */
 }
 
 .slick-list {
   overflow: initial; /* Adjust overflow as needed */
-  border-radius: 50%;
 }
 
 /* @media screen and (max-width: 1200px) {} */
