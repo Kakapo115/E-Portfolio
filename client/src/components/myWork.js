@@ -65,7 +65,9 @@ class MyWork extends Component {
           )}
           <p>(Click image to enter)</p>
         </div>
-        <img src="midjour_climbin.png" className="img" alt="Halfway Climb" />
+        <div className="img-container">
+          <img src="midjour_climbin.png" className="img" alt="Halfway Climb" />
+        </div>
       </div>
     );
   }

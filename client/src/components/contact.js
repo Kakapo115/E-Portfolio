@@ -80,7 +80,9 @@ class Contact extends Component {
             {sent && <p className="sent-message">Email sent successfully!</p>}
           </form>
         </div>
-        <img src="midjour_topvalley.png" className="img" alt="The Summit" />
+        <div className="img-container">
+          <img src="midjour_topvalley.png" className="img" alt="The Summit" />
+        </div>
       </div>
     );
   }
