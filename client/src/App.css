@@ -41,6 +41,7 @@
 /* Add a media query for screens smaller than a certain width */
 @media screen and (max-width: 1024px) {
   .section .img {
+    background-size: 110%;
     width: 110%; 
   }
 }
@@ -53,11 +54,13 @@
     width: 100%; /* Make h1 cover the whole width */
   }
   .section .img {
+    background-size: 130%;
     width: 130%;
   }
 } 
 @media screen and (max-width: 480px) {
   .section .img {
+    background-size: 150%;
     width: 150%;
   }
 } 
