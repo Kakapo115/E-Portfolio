@@ -53,7 +53,6 @@
   justify-content: center;
   color: #e0aaff;
   text-align: center;
-  margin: -10%; /* Adjust margin to prevent overflow */
 }
 
 @keyframes spinAnimation {
