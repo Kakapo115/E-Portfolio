@@ -83,17 +83,17 @@
   box-shadow: 1px 3px 3px #10002b93;
 }
 
-.slick-slider {
+.aboutMe .slick-slider {
   width: 100%; /* Set the width of the carousel */
   margin: 0 auto; /* Center the carousel */
 }
 
-.slick-track {
+.aboutMe .slick-track {
   justify-content: center;
   display: flex;
 }
 
-.slick-slide {
+.aboutMe .slick-slide {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -101,7 +101,7 @@
   margin-left: 10px;
 }
 
-.slick-list {
+.aboutMe .slick-list {
   overflow: visible;
 }
 
