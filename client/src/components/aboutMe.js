@@ -26,11 +26,33 @@ const AboutMe = () => {
     dots: true, // Display dots for navigation
     infinite: true, // Enable infinite loop
     speed: 500, // Transition speed in milliseconds
-    slidesToShow: 3, // Number of slides to show at a time
     slidesToScroll: 1, // Number of slides to scroll at a time
     autoplay: true, // Enable autoplay
     autoplaySpeed: 5000, // Set the autoplay speed in milliseconds
   };
+
+  const responsiveSettings = [
+    {
+      breakpoint: 1024,
+      settings: {
+        slidesToShow: 3,
+      },
+    },
+    {
+      breakpoint: 768,
+      settings: {
+        slidesToShow: 2,
+      },
+    },
+    {
+      breakpoint: 480,
+      settings: {
+        slidesToShow: 1,
+      },
+    },
+  ];
+
+  yourSliderSettings.responsive = responsiveSettings;
 
   const bubbleContent = [
     {
