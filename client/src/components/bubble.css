@@ -42,8 +42,8 @@
 }
 
 .aboutMe .hovered {
-  width: 20%;
-  height: 20%;
+  width: 60%;
+  height: 60%;
   animation: none; /* Disable animation when hovered */
 }
 
