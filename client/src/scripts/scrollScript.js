@@ -1,3 +1,5 @@
+import anime from 'animejs/lib/anime.es.js'; // Import Anime.js
+
 export function setupScroll() {
   const links = document.querySelectorAll(".header-right a");
 
@@ -8,9 +10,12 @@ export function setupScroll() {
       const targetOffset =
         targetSection.getBoundingClientRect().top + window.pageYOffset;
 
-      window.scroll({
-        top: targetOffset,
-        behavior: "smooth",
+      // Use Anime.js to animate the scroll position
+      anime({
+        targets: window,
+        scrollTop: targetOffset,
+        duration: 800, // Set the duration of the scroll animation
+        easing: 'easeInOutQuad', // Set the easing function
       });
     });
   });
@@ -19,8 +24,8 @@ export function setupScroll() {
     // Check if the screen size is desktop-sized
     if (window.innerWidth >= 1024) {
       const sections = document.querySelectorAll(".section");
-      const opacityFactor = 0.9; // Adjust this factor to control the rate of opacity change
-      const minOpacity = 0.3; // Adjust the minimum opacity as needed
+      const opacityFactor = 0.9;
+      const minOpacity = 0.3;
 
       sections.forEach(function (section) {
         const rect = section.getBoundingClientRect();
