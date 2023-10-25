@@ -70,6 +70,9 @@
   transition: opacity 0.5s ease; /* Add a transition for smooth fading */
   position: relative; /* Add this to allow .textbox to be positioned relative to .section */
   margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   width: 100%;
   height: 100%;
 }
