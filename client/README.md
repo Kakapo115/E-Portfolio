@@ -1,10 +1,10 @@
 Notes:
-    Resizing:
-        resizing for Tablet - min-width 767px and max-width 1024px
-        resizing for Smartphone - max-width 767px
     Work:
-        image preview adjustment to make them more passively in the view
-        add loading spinning circles for the work and preview sections if it hasnt loaded up yet
+        Changes for phone size - as left text gets too big and preview gets smaller and unreadable
+        Add loading spinning circles for the work and preview sections if it hasnt loaded up yet
+    Contact:
+        Change for phone size
+        Just center it after a certain size
 Hosting:
     Get to-do-app hosting
 

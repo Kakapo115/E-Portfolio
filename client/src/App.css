@@ -143,6 +143,12 @@
   background-color: #59189aa0;
 }
 
+@media screen and (max-width: 630px) {
+  /* Change the text and preview for myWork at this screen size */
+
+
+}
+
 .my-work-title {
   /* Styles for the "My Work" title */
   font-weight: bold;
@@ -249,4 +255,11 @@ a {
 .header-right a:active {
   color: #7a2cbfa9; /* Change link color on hover and active states */
   cursor: pointer; /* Show the pointer cursor on hover */
+}
+
+@media screen and (max-width: 480px) {
+  /* Change form and title for contact page at this screen size */
+
+
+  
 }
