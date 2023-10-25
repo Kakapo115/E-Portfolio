@@ -50,17 +50,17 @@ const AboutMe = () => {
     {
       title: "About Me",
       content:
-        "Kia Ora! Ricky Syme here – I'm a passionate individual on the cusp of graduating with a Bachelor of Applied Information. Despite my previous role as an orchard hand, my adaptable nature and robust work ethic make me well-suited for a career in web development within the digital technology sector.",
+        "Kia Ora! Ricky Syme here – I'm a passionate individual on the cusp of graduating with a Bachelor of Applied Information. So I am more then ready to get into the workforce and put my skills to use.",
     },
     {
       title: "Career",
       content:
-        "My professional journey reflects a fusion of academic dedication and practical experience. As I transition into the tech industry, I bring not only a curious mind and a penchant for innovation but also a love for the outdoors – be it camping, fishing, or hunting. Balancing this with my indoor adventures in gaming and exploring the digital realm, I am ready to contribute a unique perspective to the dynamic landscape of technology.",
+        "My professional journey reflects a fusion of academic dedication and physical labour experience. As I transition into the tech industry, I bring not only a curious mind and a penchant for innovation but also a love for the outdoors – be it camping, fishing, or hunting. Balancing this with my indoor adventures in exploring the digital realm, I am ready to contribute a unique perspective to the dynamic landscape of technology.",
     },
     {
       title: "Education",
       content:
-        "In my pursuit of knowledge, I'm about to graduate with a Bachelor of Applied Information, setting my sights on web development within the digital technology sector. Unlike my past in manual labor as an orchard hand, I bring to the tech realm a blend of academic resilience and hands-on experience.",
+        "In my pursuit of knowledge, I'm about to graduate with a Bachelor of Applied Information, setting my sights on web development within the digital technology sector.",
     },
   ];
 
