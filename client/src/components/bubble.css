@@ -30,6 +30,7 @@
   transition: all 0.3s ease-in-out;
   animation: floatAnimation 5s infinite ease-in-out;
   box-sizing: content-box;
+  margin-right: 10px; /* Add a right margin for the gap */
 }
 
 .bubble:hover {
@@ -68,6 +69,7 @@
   height: 145px;
   width: auto;
   background-color: rgba(255, 255, 255, 0.8); 
+  margin: auto;
 }
 .icon:hover {
   transform: scale(1.2);
