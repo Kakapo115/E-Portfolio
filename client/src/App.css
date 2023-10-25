@@ -83,7 +83,6 @@
 .img {
   height: auto;
   width: 100%;
-  margin: -2px;
   margin-left: auto;
   margin-right: auto;
   overflow: hidden; /* Hide the overflowing content */
