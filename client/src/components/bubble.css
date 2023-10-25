@@ -139,14 +139,6 @@
   border: none; /* Remove the border */
 }
 
-.aboutMe .slick-prev {
-  left: -30px; /* Adjust the position of the left arrow */
-}
-
-.aboutMe .slick-next {
-  right: -30px; /* Adjust the position of the right arrow */
-}
-
 /* Add the following media query to adjust styles for smaller screens if needed */
 @media screen and (max-width: 768px) {
   .slick-prev,
