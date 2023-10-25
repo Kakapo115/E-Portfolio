@@ -42,6 +42,7 @@
 @media screen and (max-width: 1024px) {
   .section .img {
     width: 150%;
+    margin-left: -25%;
   }
 }
 @media screen and (max-width: 768px) {
@@ -54,11 +55,13 @@
   }
   .section .img {
     width: 200%;
+    margin-left: -50%;
   }
 }
 @media screen and (max-width: 480px) {
   .section .img {
     width: 300%;
+    margin-left: -100%;
   }
 }
 
