@@ -137,7 +137,6 @@
   margin: 5px;
   background-color: #10002b7c;
   border-radius: 5px;
-  white-space: nowrap; /* Prevent text wrapping */
   overflow: hidden; /* Hide overflowing content */
   text-overflow: ellipsis; /* Display ellipsis (...) for truncated text */
 }
