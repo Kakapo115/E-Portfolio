@@ -127,8 +127,7 @@
 }
 .work-selection {
   max-height: 300px;
-  overflow: hidden; /* Hide overflowing content */
-  text-overflow: ellipsis; /* Display ellipsis (...) for truncated text */
+  overflow-y: auto;
 }
 
 .item {
