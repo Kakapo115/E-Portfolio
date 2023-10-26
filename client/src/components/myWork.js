@@ -37,16 +37,18 @@ class MyWork extends Component {
       <div className="section" id="work">
         <div className="leftbox">
           <h1 className="my-work-title">My Work</h1>
-          {webapps.map((webapp) => (
-            <div
-              key={webapp._id}
-              onClick={() => this.handleItemClick(webapp)} // Add onClick event
-              className={`item ${webapp === selectedItem ? "selected" : ""}`} // Apply different classes based on selection for styling
-            >
-              <div className="name">{webapp.name}</div>
-              <div className="description">{webapp.description}</div>
-            </div>
-          ))}
+          <div className="work-selection">
+            {webapps.map((webapp) => (
+              <div
+                key={webapp._id}
+                onClick={() => this.handleItemClick(webapp)} // Add onClick event
+                className={`item ${webapp === selectedItem ? "selected" : ""}`} // Apply different classes based on selection for styling
+              >
+                <div className="name">{webapp.name}</div>
+                <div className="description">{webapp.description}</div>
+              </div>
+            ))}
+          </div>
         </div>
         <div className="rightbox">
           <h1>Preview</h1>
