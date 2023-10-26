@@ -120,6 +120,8 @@
   flex-direction: column;
   align-items: center; /* Center the items horizontally */
   text-align: center; /* Center the text (name and description) horizontally */
+  max-height: 300px; /* Set a fixed height for the scrollable box */
+  overflow-y: auto; /* Enable vertical scrolling if the content exceeds the height */
 }
 
 .leftbox h1 {
@@ -135,6 +137,9 @@
   margin: 5px;
   background-color: #10002b7c;
   border-radius: 5px;
+  white-space: nowrap; /* Prevent text wrapping */
+  overflow: hidden; /* Hide overflowing content */
+  text-overflow: ellipsis; /* Display ellipsis (...) for truncated text */
 }
 .item:hover {
   background-color: rgba(122, 44, 191, 0.624);

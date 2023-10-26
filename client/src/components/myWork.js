@@ -50,29 +50,31 @@ class MyWork extends Component {
         </div>
         <div className="rightbox">
           <h1>Preview</h1>
-          {selectedItem && (
-  selectedItem.linkURL ? (
-    <div>
-    <a href={selectedItem.linkURL} target="_blank" rel="noopener noreferrer">
-      <img
-        src={selectedItem.previewImageURL}
-        className="preview"
-        alt={selectedItem.name}
-      />
-    </a>
-    <p>(Click image to enter)</p>
-    </div> 
-  ) : (
-    <div>
-      <img
-        src={selectedItem.previewImageURL}
-        className="preview"
-        alt={selectedItem.name}
-      />
-    </div>
-  )
-)}
-          
+          {selectedItem &&
+            (selectedItem.linkURL ? (
+              <div>
+                <a
+                  href={selectedItem.linkURL}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <img
+                    src={selectedItem.previewImageURL}
+                    className="preview"
+                    alt={selectedItem.name}
+                  />
+                </a>
+                <p>(Click image to enter)</p>
+              </div>
+            ) : (
+              <div>
+                <img
+                  src={selectedItem.previewImageURL}
+                  className="preview"
+                  alt={selectedItem.name}
+                />
+              </div>
+            ))}
         </div>
         <div className="img-container">
           <img src="midjour_climbin.png" className="img" alt="Halfway Climb" />
