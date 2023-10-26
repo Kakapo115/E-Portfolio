@@ -121,7 +121,7 @@
   align-items: center; /* Center the items horizontally */
   text-align: center; /* Center the text (name and description) horizontally */
   max-height: 300px; /* Set a fixed height for the scrollable box */
-  overflow-y: auto; /* Enable vertical scrolling if the content exceeds the height */
+  overflow-x: auto; /* Enable vertical scrolling if the content exceeds the height */
 }
 
 .leftbox h1 {
