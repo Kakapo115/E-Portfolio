@@ -113,7 +113,7 @@
   transform: translate(-50%, -50%); /* Center the box */
   padding: 10px;
   border-radius: 5px;
-  max-width: 35%;
+  max-width: 40%;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
