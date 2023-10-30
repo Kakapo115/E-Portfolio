@@ -176,10 +176,6 @@
   background-color: #59189aa0;
 }
 
-@media screen and (max-width: 630px) {
-  /* Change the text and preview for myWork at this screen size */
-}
-
 .my-work-title {
   /* Styles for the "My Work" title */
   font-weight: bold;
@@ -221,7 +217,7 @@
   /* Change my work and preview to divs to be centered and myWork above preview. */
   .leftbox,
   .rightbox {
-    display: flex;
+    display: flex !important;
     max-width: 65%;
     flex: auto;
     justify-content: center; /* Center horizontally */
