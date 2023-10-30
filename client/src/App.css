@@ -276,14 +276,12 @@ a {
   /* Change my work and preview to divs to be centered and myWork above preview. */
   .leftbox,
   .rightbox {
-    position: absolute;
-    top: 35%;
-    right: 10%;
-    border-radius: 5px;
     max-width: 80%;
-    width: 100%; /* Expand the box to full width */
     flex: auto;
-    display: flex; /* Make it a flex container */
     justify-content: center; /* Center horizontally */
+  }
+  .work-box-holder {
+    display: flex;
+    flex: auto;
   }
 }

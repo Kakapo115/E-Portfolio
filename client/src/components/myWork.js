@@ -35,48 +35,52 @@ class MyWork extends Component {
     const { webapps, selectedItem } = this.state;
     return (
       <div className="section" id="work">
-        <div className="leftbox">
-          <h1 className="my-work-title">My Work</h1>
-          <div className="work-selection">
-            {webapps.map((webapp) => (
-              <div
-                key={webapp._id}
-                onClick={() => this.handleItemClick(webapp)} // Add onClick event
-                className={`item ${webapp === selectedItem ? "selected" : ""}`} // Apply different classes based on selection for styling
-              >
-                <div className="name">{webapp.name}</div>
-                <div className="description">{webapp.description}</div>
-              </div>
-            ))}
-          </div>
-        </div>
-        <div className="rightbox">
-          <h1>Preview</h1>
-          {selectedItem &&
-            (selectedItem.linkURL ? (
-              <div>
-                <a
-                  href={selectedItem.linkURL}
-                  target="_blank"
-                  rel="noopener noreferrer"
+        <div className="work-box-holder">
+          <div className="leftbox">
+            <h1 className="my-work-title">My Work</h1>
+            <div className="work-selection">
+              {webapps.map((webapp) => (
+                <div
+                  key={webapp._id}
+                  onClick={() => this.handleItemClick(webapp)} // Add onClick event
+                  className={`item ${
+                    webapp === selectedItem ? "selected" : ""
+                  }`} // Apply different classes based on selection for styling
                 >
+                  <div className="name">{webapp.name}</div>
+                  <div className="description">{webapp.description}</div>
+                </div>
+              ))}
+            </div>
+          </div>
+          <div className="rightbox">
+            <h1>Preview</h1>
+            {selectedItem &&
+              (selectedItem.linkURL ? (
+                <div>
+                  <a
+                    href={selectedItem.linkURL}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <img
+                      src={selectedItem.previewImageURL}
+                      className="preview"
+                      alt={selectedItem.name}
+                    />
+                  </a>
+                  <p>(Click image to enter)</p>
+                </div>
+              ) : (
+                <div>
                   <img
                     src={selectedItem.previewImageURL}
                     className="preview"
                     alt={selectedItem.name}
                   />
-                </a>
-                <p>(Click image to enter)</p>
-              </div>
-            ) : (
-              <div>
-                <img
-                  src={selectedItem.previewImageURL}
-                  className="preview"
-                  alt={selectedItem.name}
-                />
-              </div>
-            ))}
+                </div>
+              ))}
+          </div>
         </div>
         <div className="img-container">
           <img src="midjour_climbin.png" className="img" alt="Halfway Climb" />
