@@ -233,7 +233,7 @@
   .leftbox {
     transform: none;
     right: 10%;
-    top: 0;
+    top: 5%;
     left: unset;
   }
   .rightbox.contactform {
