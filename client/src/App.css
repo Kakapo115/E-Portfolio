@@ -224,6 +224,8 @@
     max-width: 65%;
     flex: auto;
     justify-content: center; /* Center horizontally */
+    position: static; /* Remove absolute positioning */
+    transform: none; /* Remove transform */
   }
   .work-box-holder {
     flex-direction: column;
