@@ -235,8 +235,8 @@
     top: 0;
     left: unset;
   }
-  .contactform {
-    top: 50% !important;
+  .rightbox.contactform {
+    top: 50%;
   }
   .rightbox {
     right: 10%;
