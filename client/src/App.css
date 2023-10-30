@@ -228,10 +228,8 @@
     flex-direction: column;
     align-items: center;
   }
-  .rightbox {
-    position: static; /* Change to static positioning */
-    transform: none; /* Remove translation */
-    margin-top: 20px; /* Add margin to separate the boxes */
+  .leftbox {
+    margin-bottom: 20px; /* Add margin to separate the boxes */
   }
 }
 
