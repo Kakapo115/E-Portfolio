@@ -44,7 +44,7 @@ class Contact extends Component {
 
     return (
       <div className="section" id="contact">
-        <div className="rightbox">
+        <div className="rightbox contactform">
           <h1>Contact Me</h1>
           <form onSubmit={this.handleFormSubmit}>
             <div className="form-group">

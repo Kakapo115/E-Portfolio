@@ -242,6 +242,9 @@
   .rightbox p {
     margin-top: 0;
   }
+  .rightbox .contactform {
+    bottom: -10%;
+  }
 }
 
 .form-group {
