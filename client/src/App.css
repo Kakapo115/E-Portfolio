@@ -248,6 +248,14 @@
     margin-top: 0;
   }
 }
+@media screen and (max-width: 370px) {
+  .leftbox {
+    top: 2.5%;
+  }
+  .rightbox {
+    top: 55%;
+  }
+}
 
 .form-group {
   margin-bottom: 15px;
