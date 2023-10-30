@@ -233,6 +233,7 @@
     transform: none;
     right: 10%;
     top: 0;
+    left: unset;
   }
   .rightbox {
     right: 10%;
