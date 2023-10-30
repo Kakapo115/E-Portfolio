@@ -221,7 +221,7 @@
     flex: auto;
     justify-content: center; /* Center horizontally */
   }
-  .work-box-holder {
+  .myworkstuff {
     flex-direction: column;
     align-items: center;
   }

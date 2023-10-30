@@ -36,7 +36,7 @@ class MyWork extends Component {
     return (
       <div className="section" id="work">
 
-        <div className="work-box-holder">
+        <div className="myworkstuff">
           <div className="leftbox">
             <h1 className="my-work-title">My Work</h1>
             <div className="work-selection">
