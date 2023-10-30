@@ -226,8 +226,8 @@
     justify-content: center; /* Center horizontally */
   }
   .work-box-holder {
-    display: flex;
-    flex: auto;
+    flex-direction: column;
+    align-items: center;
   }
 }
 
