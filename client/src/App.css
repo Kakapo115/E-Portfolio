@@ -67,7 +67,6 @@
 
 .section {
   text-align: center;
-  font-weight: bold;
   color: #e0aaff;
   opacity: 0; /* Initially set the opacity to 0 for fading effect */
   transition: opacity 0.5s ease; /* Add a transition for smooth fading */
@@ -122,22 +121,7 @@
   border-radius: 25px;
 }
 
-.leftbox {
-  position: absolute;
-  left: 25%; /* Set the initial position to the center */
-  top: 50%;
-  transform: translate(-50%, -50%); /* Center the box */
-  padding: 10px;
-  border-radius: 5px;
-  max-width: 35%;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  flex-direction: column;
-  align-items: center; /* Center the items horizontally */
-  text-align: center; /* Center the text (name and description) horizontally */
-  overflow: hidden;
-}
+
 
 .leftbox h1 {
   color: #9d4edd;
@@ -193,6 +177,22 @@
   width: 50%;
   text-align: right;
 }
+.leftbox {
+  position: absolute;
+  left: 25%; /* Set the initial position to the center */
+  top: 50%;
+  transform: translate(-50%, -50%); /* Center the box */
+  padding: 10px;
+  border-radius: 5px;
+  max-width: 35%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  flex-direction: column;
+  align-items: center; /* Center the items horizontally */
+  text-align: center; /* Center the text (name and description) horizontally */
+  overflow: hidden;
+}
 
 .rightbox {
   position: absolute;
@@ -208,6 +208,7 @@
 .rightbox h1 {
   font-size: 50px;
   color: #9d4edd;
+  margin-bottom: 10px;
 }
 .rightbox p {
   color: #9d4edd;
@@ -218,11 +219,10 @@
   justify-content: center;
 }
 
-@media screen and (max-width: 650px) {
+@media screen and (max-width: 710px) {
   .leftbox,
   .rightbox {
     max-width: 65%; /* Adjust as needed */
-    width: 100%; /* Ensure full width */
   }
   .myworkstuff {
     flex-direction: column;
@@ -230,6 +230,9 @@
   }
   .leftbox {
     margin-bottom: 20px; /* Add margin to separate the boxes */
+    transform: none;
+    left: 15%;
+    top: 0;
   }
 }
 
