@@ -58,7 +58,7 @@
     margin-left: -57.5%;
   }
 }
-@media screen and (max-width: 550px) {
+@media screen and (max-width: 600px) {
   .section .img {
     width: 350%;
     margin-left: -125%;
@@ -233,7 +233,7 @@
   .leftbox {
     transform: none;
     right: 10%;
-    top: 5%;
+    top: 2.5%;
     left: unset;
   }
   .rightbox.contactform {
