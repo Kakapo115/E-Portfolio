@@ -222,17 +222,24 @@
 @media screen and (max-width: 710px) {
   .leftbox,
   .rightbox {
-    max-width: 65%; /* Adjust as needed */
+    max-width: 80%;
+    padding: 0;
   }
   .myworkstuff {
     flex-direction: column;
     align-items: center;
   }
   .leftbox {
-    margin-bottom: 20px; /* Add margin to separate the boxes */
     transform: none;
-    left: 15%;
+    right: 10%;
     top: 0;
+  }
+  .rightbox {
+    right: 10%;
+    transform: none;
+  }
+  .rightbox p {
+    margin-top: 0;
   }
 }
 
