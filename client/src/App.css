@@ -228,6 +228,7 @@
   .myworkstuff {
     flex-direction: column;
     align-items: center;
+    gap: 0;
   }
   .leftbox {
     transform: none;
@@ -237,6 +238,7 @@
   }
   .rightbox.contactform {
     top: 50%;
+    transform: translateY(-50%);
   }
   .rightbox {
     right: 10%;
@@ -245,7 +247,6 @@
   .rightbox p {
     margin-top: 0;
   }
-  
 }
 
 .form-group {
