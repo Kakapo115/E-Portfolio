@@ -235,6 +235,9 @@
     top: 0;
     left: unset;
   }
+  .contactform {
+    top: 50% !important;
+  }
   .rightbox {
     right: 10%;
     transform: none;
@@ -242,9 +245,7 @@
   .rightbox p {
     margin-top: 0;
   }
-  .contactform {
-    top: 50%;
-  }
+  
 }
 
 .form-group {
