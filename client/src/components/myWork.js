@@ -35,6 +35,7 @@ class MyWork extends Component {
     const { webapps, selectedItem } = this.state;
     return (
       <div className="section" id="work">
+
         <div className="work-box-holder">
           <div className="leftbox">
             <h1 className="my-work-title">My Work</h1>
@@ -82,9 +83,11 @@ class MyWork extends Component {
               ))}
           </div>
         </div>
+
         <div className="img-container">
           <img src="midjour_climbin.png" className="img" alt="Halfway Climb" />
         </div>
+        
       </div>
     );
   }
