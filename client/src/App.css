@@ -213,6 +213,10 @@
   color: #9d4edd;
 }
 
+.myworkstuff {
+  display: flex;
+}
+
 @media screen and (max-width: 650px) {
   /* Change my work and preview to divs to be centered and myWork above preview. */
   .leftbox,
