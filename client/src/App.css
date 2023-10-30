@@ -217,7 +217,6 @@
   /* Change my work and preview to divs to be centered and myWork above preview. */
   .leftbox,
   .rightbox {
-    display: flex !important;
     max-width: 65%;
     flex: auto;
     justify-content: center; /* Center horizontally */
