@@ -33,7 +33,7 @@
 }
 
 .aboutMe .bubble {
-  width: 30% !important;
+  width: 100px !important;
 }
 
 .bubble:hover {
