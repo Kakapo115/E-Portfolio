@@ -219,7 +219,7 @@
   justify-content: center;
 }
 
-@media screen and (max-width: 710px) {
+@media screen and (max-width: 770px) {
   .leftbox,
   .rightbox {
     max-width: 80%;
