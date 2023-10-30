@@ -274,9 +274,36 @@ a {
   cursor: pointer; /* Show the pointer cursor on hover */
 }
 
-@media screen and (max-width: 480px) {
-  /* Change form and title for contact page at this screen size */
+@media screen and (max-width: 650px) {
+  /* Change my work and preview to divs to be centered and myWork above preview. */
+  .leftbox,
+  .rightbox {
+    position: static; /* Change the position to static for stacking on smaller screens */
+    width: 100%;
+    max-width: none;
+    margin: 10px 0; /* Add some margin for spacing */
+  }
 
+  .section .img {
+    width: 100%;
+    margin-left: 0;
+  }
+
+  .work-selection {
+    max-height: none;
+    overflow-y: visible;
+  }
+
+  .item {
+    width: 100%;
+  }
+
+  .my-work-title,
+  .name,
+  .description {
+    width: 100%;
+    text-align: center;
+  }
 
   
 }
