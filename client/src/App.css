@@ -215,19 +215,23 @@
 
 .myworkstuff {
   display: flex;
+  justify-content: center;
 }
 
 @media screen and (max-width: 650px) {
-  /* Change my work and preview to divs to be centered and myWork above preview. */
   .leftbox,
   .rightbox {
-    max-width: 65%;
-    flex: auto;
-    justify-content: center; /* Center horizontally */
+    max-width: 65%; /* Adjust as needed */
+    width: 100%; /* Ensure full width */
   }
   .myworkstuff {
     flex-direction: column;
     align-items: center;
+  }
+  .rightbox {
+    position: static; /* Change to static positioning */
+    transform: none; /* Remove translation */
+    margin-top: 20px; /* Add margin to separate the boxes */
   }
 }
 
