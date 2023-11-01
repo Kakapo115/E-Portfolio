@@ -51,17 +51,17 @@ const AboutMe = () => {
     {
       title: "About Me",
       content:
-        "Kia Ora! Ricky Syme here – I'm a passionate individual on the cusp of graduating with a Bachelor of Applied Information. So I am more then ready to get into the workforce and put my skills to use.",
+        "Kia Ora! Ricky Syme here – I'm a passionate individual on the cusp of graduating with a Bachelor of Applied Information. My place I call home is in Tauranga in the mighty Bay Of Plenty. My free time is spent either in the digital realm or in nature camping, fishing, and the like. All this is leading me to be a graduating student who is more than ready to get into the workforce and put my skills to use.",
     },
     {
       title: "Career",
       content:
-        "My professional journey reflects a fusion of academic dedication and physical labour experience. As I transition into the tech industry, I bring a love for the outdoors – be it camping, fishing, or hunting. Balancing this with my indoor adventures in exploring the digital realm, I am ready to contribute a unique perspective to the dynamic landscape of technology.",
+        "My professional journey reflects a fusion of academic dedication and physical labor experience. As I transition into the tech industry, I hope to bring my soft skills from manual labor into the digital industry. All this is leading me to be ready and pumped to enter the industry in any way possible.",
     },
     {
       title: "Education",
       content:
-        "In my pursuit of knowledge, I'm about to graduate with a Bachelor of Applied Information, setting my sights on web development within the digital technology sector.",
+        "In my pursuit of knowledge, I'm about to graduate with a Bachelor of Applied Information in mid November, setting my sights on web development within the digital technology industry. My bachelor gave me a wide range of knowledge in the areas of .NET MAUI development, MERN Web development, some game development through Unity and Unreal using C#, and a little C++, and some other experiences. These combine to give me a wide variety of skills to break out into the industry with.",
     },
   ];
 
