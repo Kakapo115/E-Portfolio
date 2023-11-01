@@ -57,7 +57,7 @@
   justify-content: center;
   color: #e0aaff;
   text-align: center;
-  padding: 3% 10% 10% 10%;;
+  padding: 3% 10% 10% 10%;
 }
 /* Add a media query for screens smaller than a certain width */
 @media screen and (max-width: 1450px) {
@@ -71,11 +71,17 @@
     width: 60% !important;
     height: 60%;
   }
+  .aboutMe p {
+    font-size: 12px;
+  }
 }
 @media screen and (max-width: 450px) {
   .aboutMe .hovered {
     width: 80% !important;
     height: 60%;
+  }
+  .aboutMe p {
+    font-size: 10px;
   }
 }
 
@@ -143,6 +149,7 @@
   .slick-next {
     font-size: 16px; /* Adjust the font size for smaller screens */
   }
+  
 }
 
 /* @media screen and (max-width: 1200px) {} */
